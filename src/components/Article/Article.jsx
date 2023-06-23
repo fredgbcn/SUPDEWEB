@@ -15,7 +15,6 @@ console.log("mounted")
                 <h1>{currentArticle.title}</h1>
                 <br />
                 <FormulaireCommentaire currentArticle={currentArticle} />
-                <p>Mon Commentaire</p>
                 <Evaluation />
             
 
