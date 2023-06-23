@@ -7,10 +7,7 @@ import FormulaireArticle from "./Article/FormulaireArticle";
         return(
             <div>
                 Home {articles.map((article) => (console.log(article.category)))}
-                {/* Créer mon article */}
-                <FormulaireArticle />
-                {/* Aticles */}
-                <Article />
+
             </div>
         )
     }
